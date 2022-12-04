@@ -4,7 +4,9 @@ React and typescript specfic linting rules for ESlint. It abstracts away a lot o
 
 ## Installation
 ```
-npm install --save-dev @letstransport/eslint-config-react
+"dependencies": {
+    "@libty-labs/eslint-config-react": "git+https://github.com/LIBRTY-LABS/eslint-config-react.git",
+}
 ```
 (Note: No need to install eslint, it is already done by this library)
 
@@ -13,7 +15,7 @@ After installation, create a .eslintrc.js file and add this:
 ```
 module.exports = {
   extends: [
-    '@letstransport/eslint-config-react',
+    '@libty-labs/eslint-config-react',
   ],
   parserOptions: {
     project: [<path to tsconfig.json file in quotes>]
