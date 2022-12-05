@@ -1,0 +1,55 @@
+Arguments: 
+  /Users/lakshitgoel/.nvm/versions/node/v18.12.1/bin/node /Users/lakshitgoel/.nvm/versions/node/v18.12.1/bin/yarn add eslint-plugin-prettier
+
+PATH: 
+  /usr/local/opt/ruby/bin:/usr/local/lib/ruby/gems/2.7.0/bin:/opt/homebrew/opt/ruby/bin:/Users/lakshitgoel/.nvm/versions/node/v18.12.1/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/usr/local/opt/ruby/bin:/usr/local/lib/ruby/gems/2.7.0/bin:/opt/homebrew/opt/ruby/bin:/Users/lakshitgoel/.nvm/versions/node/v18.12.1/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Users/lakshitgoel/Library/Android/sdk/emulator:/Users/lakshitgoel/Library/Android/sdk/platform-tools:/Users/lakshitgoel/Library/Android/sdk/emulator:/Users/lakshitgoel/Library/Android/sdk/platform-tools
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.12.1
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  SyntaxError: /Users/lakshitgoel/Desktop/eslint-config-react/package.json: Unexpected token } in JSON at position 768
+      at JSON.parse (<anonymous>)
+      at /Users/lakshitgoel/.nvm/versions/node/v18.12.1/lib/node_modules/yarn/lib/cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (/Users/lakshitgoel/.nvm/versions/node/v18.12.1/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /Users/lakshitgoel/.nvm/versions/node/v18.12.1/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "@librty-labs/eslint-config-react",
+    "version": "1.1.0",
+    "description": "Eslint config for librty's projects",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\""
+    },
+    "author": "Lakshit Goel",
+    "license": "MIT",
+    "dependencies": {
+      "@typescript-eslint/eslint-plugin": "^5.26.0",
+      "@typescript-eslint/parser": "^5.26.0",
+      "eslint": "^8.16.0",
+      "eslint-config-airbnb": "^19.0.4",
+      "eslint-config-airbnb-typescript": "^17.0.0",
+      "eslint-config-prettier": "^8.5.0",
+      "eslint-plugin-import": "^2.26.0",
+      "eslint-plugin-jest": "^26.4.5",
+      "eslint-plugin-json": "^3.1.0",
+      "eslint-plugin-jsx-a11y": "^6.5.1",
+      "eslint-plugin-react": "^7.30.0",
+      "eslint-plugin-react-hooks": "^4.5.0",
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
